@@ -1,0 +1,5 @@
+# Ignore all .class files
+*.class
+
+# Optionally ignore compiled files in subdirectories
+**/*.class
