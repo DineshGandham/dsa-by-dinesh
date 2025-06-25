@@ -13,7 +13,10 @@ public class Main {
         // reverseArray.reverseArray();
         // reverseArray.reverseArrayWithSwap();
 
-        LargestNumber largestNumber = new LargestNumber();
-        largestNumber.LargestNumber();
+        // LargestNumber largestNumber = new LargestNumber();
+        // largestNumber.LargestNumber();
+
+        FibonacciSeries fibonacciSeries = new FibonacciSeries();
+        fibonacciSeries.fibonacciSeries();
     }
 }
