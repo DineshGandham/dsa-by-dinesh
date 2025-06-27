@@ -6,6 +6,8 @@ public class CountNum {
      * the value by 10 until it becomes zero, counting the number of iterations to determine
      * the number of digits in the original value. It prints the count at the end.
      */
+
+     int result = 0;
     public void countNum() {
         int value = 23456789;
         int count = 0;
@@ -43,4 +45,22 @@ public class CountNum {
         int count = arr.length;
         System.out.println("Number of digits in the given number is: " + count);
     }
+
+    /**
+     * Counts the number of digits in a given integer using recursion.
+     * 
+     * This method initializes an integer value and calls a recursive method to count
+     * the number of digits. The recursive method divides the number by 10 until it reaches
+     * zero, incrementing the count at each step. It prints the count at the end.
+     */
+    public int count(int num) {
+        int result = 0;
+        if (num == 0) {
+            return 0;
+        }
+        result++;
+        count(num / 10);
+        return result;
+    }
+
 }
