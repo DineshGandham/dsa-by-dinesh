@@ -25,6 +25,8 @@ public class ReverseArray {
     // This method reverses an array in place by swapping elements.
     /**
      * Reverses the elements of an array in place using swapping and prints the reversed array.
+     * This method uses two pointers, one starting at the beginning and the other at the end of the array,
+     * and swaps the elements until the pointers meet.
      */
     
     public void reverseArrayWithSwap() {
